@@ -1,0 +1,24 @@
+.PHONY: install sqlite-run mysql-run
+
+install:
+	@echo "[INFO] - - -> Instalando o projeto..."     \
+	&& cd ./ProTecHub/                                \
+	&& pip install poetry                             \
+	&& poetry install   
+
+# OBS: Use 'export' no Linux, 'set' no Windows                     
+sqlite-run:
+	@echo "[INFO] - - -> Iniciando o projeto..."      \
+	&& set USE_SQLITE=True                            \
+	&& cd ./ProTecHub/                                \
+	&& poetry run python manage.py migrate            \
+	&& poetry run python manage.py runserver          
+
+# OBS: Use 'export' no Linux, 'set' no Windows
+mysql-run:
+	@echo "[INFO] - - -> Iniciando o projeto..."      \
+	&& set USE_SQLITE=False                           \
+	&& cd ./ProTecHub/                                \
+	&& poetry run python manage.py migrate            \
+	&& poetry run python manage.py runserver          
+ 
