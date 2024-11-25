@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}" defer></script>
+</head>
+<body>
+    <div class="container_coluna">
+        <h1 class="titulos">Página Sobre Palhoça</h1>
+    </div>
+
+    <div class="container_linha">
+        <button class="botoes" onclick="navigateToHistoria()">Ir para a História</button>
+        <button class="botoes" onclick="navigateToGaleria()">Ir para a Galeria</button>
+        <button class="botoes" onclick="navigateToPontosTuristicos()">Ir para os Pontos Turísticos</button>
+    </div>
+    
+</body>
+</html>

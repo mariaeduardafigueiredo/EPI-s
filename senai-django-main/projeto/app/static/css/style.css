@@ -1,0 +1,62 @@
+/* Estilo para títulos */
+.titulos {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilo para parágrafos */
+.paragrafos {
+    font-family: 'Georgia', serif;
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+	margin-right: 50px;
+	margin-left: 70px;
+	text-align: justify;
+}
+
+/* Estilo para botões */
+.botoes {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    transition: background-color 0.3s;
+    box-shadow: 8px 8px 8px 0px rgba(128,0,255,0.58);
+    -webkit-box-shadow: 8px 8px 8px 0px rgba(128,0,255,0.58);
+    -moz-box-shadow: 8px 8px 8px 0px rgba(128,0,255,0.58);
+	margin: 5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.botoes:hover {
+    background-color: #45a049;
+}
+
+.botoes:active {
+    background-color: #3e8e41;
+}
+
+.container_coluna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

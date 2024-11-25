@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Galeria</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1 class="titulos">Galeria de Fotos de Palhoça</h1>
+
+
+        <div class="row">
+            <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="{% static 'img/img_1.jpeg' %}" alt="Imagem 1" style="width:300%">
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="{% static 'img/img_2.jpeg' %}" alt="Imagem 2" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="{% static 'img/img_3.jpeg' %}" alt="Imagem 3" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{% static 'img/img_4.jpeg' %}" alt="Imagem 4" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{% static 'img/img_5.jpeg' %}" alt="Imagem 5" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{% static 'img/img_6.jpeg' %}" alt="Imagem 6" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{% static 'img/img_7.jpeg' %}" alt="Imagem 7" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{% static 'img/img_8.jpeg' %}" alt="Imagem 8" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{% static 'img/img_9.jpeg' %}" alt="Imagem 9" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{% static 'img/img_10.jpeg' %}" alt="Imagem 10" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{% static 'img/img_11.jpeg' %}" alt="Imagem 11" style="width:100%">
+            </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{% static 'img/img_12.jpeg' %}" alt="Imagem 12" style="width:100%">
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container_linha">
+        <button class="botoes" onclick="navigateToIndex()">Voltar ao Index</button>
+    </div>
+    
+</body>
+</html>
